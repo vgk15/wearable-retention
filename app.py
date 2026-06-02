@@ -41,8 +41,10 @@ def load_pipeline():
 
 
 if not os.path.exists(os.path.join(ART, "scored_users.csv")):
-    st.error("Artifacts not found. Run `python -m src.train` from the project root first.")
-    st.stop()
+    # First run (e.g. fresh Streamlit Cloud deploy): generate data + train models.
+    with st.spinner("Preparing data and training models (first run only, ~20s)..."):
+        from src.train import main as _train
+        _train()
 
 df, fi, seg, metrics = load()
 pipe = load_pipeline()
