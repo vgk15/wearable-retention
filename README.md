@@ -31,16 +31,6 @@ streamlit run app.py       # 2) launch the dashboard
 `python -m src.train` prints model metrics and segment profiles, and writes everything
 the dashboard needs into `artifacts/`.
 
-## Project layout
-
-| Path | Purpose |
-|------|---------|
-| `src/generate_data.py` | Synthetic data (latent-propensity design, no label leakage) |
-| `src/train.py` | LogReg + Random Forest classifiers, K-Means segmentation, persistence |
-| `src/recommend.py` | Interpretable benchmark-gap recommendations + nearest-user lookup |
-| `app.py` | Streamlit dashboard (overview, predictions, segments, health, recommendations) |
-| `data/` | Generated raw dataset |
-| `artifacts/` | Trained pipeline, scored users, metrics, segment summaries |
 
 ## What the dashboard shows
 
