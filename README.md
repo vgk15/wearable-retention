@@ -4,33 +4,15 @@
 
 For wearable companies, this disengagement leads to lost revenue, lower customer retention, and fewer opportunities to improve users' health outcomes. This project aims to identify early signs of disengagement so companies can proactively re-engage users before they stop using the product.
 
-**What this project does:** This is an end-to-end analytics tool that helps a wearable company
-spot at-risk users *early* and act on it. Using daily activity and health signals — steps, sleep,
-workouts, heart rate, app logins, how consistently the device is worn, and whether usage is
-trending up or down — it does four things:
+**Project Outcome:** This project helps wearable companies identify users who may stop using devices such as WHOOP bands, Garmin watches, and other fitness trackers before they disengage completely. Using activity and health data—including steps, sleep, workouts, heart rate, app usage, and device wear patterns—it:
 
-1. **Predicts** each user's risk of disengaging, as a 0–100% risk score, using machine learning.
-2. **Segments** the user base into behavioral groups (for example, *Highly Active*, *Steady*,
-   *Casual*, and *At-Risk* users) so teams can see who they're serving.
-3. **Recommends** a specific, plain-English next step for any user (e.g. "improve sleep
-   consistency," "re-engage before drop-off") — and shows *why* the model flagged them.
-4. **Visualizes** all of it in an interactive dashboard a product or marketing team could
-   actually use day to day.
+**1:**: Predicts churn risk by assigning each user a 0–100% likelihood of disengagement.
+**2:**: Segments users into behavioral groups such as Highly Active, Steady, Casual, and At-Risk.
+**3:**: Recommends actions and explains why a user was flagged.
+**4:**: Visualizes insights in an interactive dashboard designed for product, marketing, and retention teams.
 
-Everything runs on a realistic **synthetic dataset** (no real personal data), so the project is
-fully reproducible by anyone who clones it. The result is a complete, honest demonstration of how
-a data team turns raw wearable signals into retention decisions.
+The project leverages a realistic synthetic dataset to provide a fully reproducible demonstration of how wearable technology companies can transform user engagement and health signals into actionable insights that drive retention, enhance customer lifetime value, and inform strategic business decisions.
 
-## Why this is built the way it is
-
-The common mistake in projects like this is **circular labeling**: generate random
-metrics, then define "at risk" with a hard rule (e.g. `steps < 4000`). A model then just
-re-learns your rule and reports a meaningless ~100% accuracy.
-
-Here, each user has a **hidden engagement propensity** that *drives* their observed
-behavior through noisy channels, and the retention label is drawn from that latent
-variable **plus independent noise**. The visible metrics are imperfect signals — so the
-models learn something real and the metrics are honest (ROC-AUC ≈ 0.78, not 1.0).
 
 ## Setup
 
