@@ -21,18 +21,7 @@ cd wearable-retention
 pip install -r requirements.txt
 ```
 
-## Run
-
-```bash
-python -m src.train        # 1) generate data, train models + segments, write artifacts/
-streamlit run app.py       # 2) launch the dashboard
-```
-
-`python -m src.train` prints model metrics and segment profiles, and writes everything
-the dashboard needs into `artifacts/`.
-
-
-## What the dashboard shows
+## Dashboard View
 
 1. Overview: Active vs at-risk split, risk-score distribution, adjustable risk threshold.
 2. Retention Predictions: model comparison, confusion matrix, feature importance, highest-risk users.
