@@ -6,10 +6,10 @@ For wearable companies, this disengagement leads to lost revenue, lower customer
 
 **Project Outcome:** This project helps wearable companies identify users who may stop using devices such as WHOOP bands, Garmin watches, and other fitness trackers before they disengage completely. The model uses physiological data to achieve the desired outcomes:
 
-1. **Predict** churn risk by assigning each user a 0–100% likelihood of disengagement.
-2. **Segment** users into behavioral groups such as Highly Active, Steady, Casual, and At-Risk.
-3. **Recommend** actions and explain why a user was flagged.
-4. **Visualize** insights in an interactive dashboard designed for product, marketing, and retention teams.
+1. Predict churn risk by assigning each user a 0–100% likelihood of disengagement.
+2. Segment users into behavioral groups such as Highly Active, Steady, Casual, and At-Risk.
+3. Recommend actions and explains why a user was flagged.
+4. Visualize insights in an interactive dashboard designed for product, marketing, and retention teams.
 
 The project leverages a realistic synthetic dataset to provide a fully reproducible demonstration of how wearable technology companies can transform user engagement and health signals into actionable insights that drive retention, enhance customer lifetime value, and inform strategic business decisions.
 
