@@ -1,8 +1,6 @@
 # Wearable User Retention & Health Engagement Dashboard
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Open%20App-FF4B4B?logo=streamlit&logoColor=white)](https://wearable-retention-fyvrqfyepeumhv4tehjvap.streamlit.app/)
-
-**[▶ Launch the live dashboard](https://wearable-retention-fyvrqfyepeumhv4tehjvap.streamlit.app/)**
+**[▶ Click here to launch dashboard](https://wearable-retention-fyvrqfyepeumhv4tehjvap.streamlit.app/)**
 
 **The problem:** Wearable devices such as WHOOP bands, Garmin watches, and other fitness trackers often face a retention challenge. Many users are highly engaged when they first get their device, regularly tracking metrics like sleep, recovery, and activity, but their usage often declines after a few weeks or months. Eventually, some stop wearing the device, stop using the app, or cancel their subscription altogether.
 
