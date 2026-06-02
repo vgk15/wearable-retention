@@ -1,11 +1,8 @@
 # Wearable User Retention & Health Engagement Dashboard
 
-**The problem:** Wearable devices like fitness trackers and smartwatches have a retention
-problem. Many people buy a device, use it enthusiastically for a few weeks, and then quietly
-stop — the band ends up in a drawer. For the companies that make these devices, every user who
-disengages is lost subscription revenue, lost health outcomes, and a customer unlikely to
-upgrade. The hard part is that disengagement is gradual and easy to miss until it's too late
-to do anything about it.
+**The problem:** Wearable devices such as WHOOP bands, Garmin watches, and other fitness trackers often face a retention challenge. Many users are highly engaged when they first get their device, regularly tracking metrics like sleep, recovery, and activity, but their usage often declines after a few weeks or months. Eventually, some stop wearing the device, stop using the app, or cancel their subscription altogether.
+
+For wearable companies, this disengagement leads to lost revenue, lower customer retention, and fewer opportunities to improve users' health outcomes. This project aims to identify early signs of disengagement so companies can proactively re-engage users before they stop using the product.
 
 **What this project does:** This is an end-to-end analytics tool that helps a wearable company
 spot at-risk users *early* and act on it. Using daily activity and health signals — steps, sleep,
