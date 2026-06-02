@@ -1,8 +1,28 @@
 # Wearable User Retention & Health Engagement Dashboard
 
-Predicts which wearable users are at risk of disengaging, segments users by behavior,
-and serves personalized, interpretable recommendations — all on a synthetic dataset and
-exposed through an interactive Streamlit dashboard.
+**The problem:** Wearable devices like fitness trackers and smartwatches have a retention
+problem. Many people buy a device, use it enthusiastically for a few weeks, and then quietly
+stop — the band ends up in a drawer. For the companies that make these devices, every user who
+disengages is lost subscription revenue, lost health outcomes, and a customer unlikely to
+upgrade. The hard part is that disengagement is gradual and easy to miss until it's too late
+to do anything about it.
+
+**What this project does:** This is an end-to-end analytics tool that helps a wearable company
+spot at-risk users *early* and act on it. Using daily activity and health signals — steps, sleep,
+workouts, heart rate, app logins, how consistently the device is worn, and whether usage is
+trending up or down — it does four things:
+
+1. **Predicts** each user's risk of disengaging, as a 0–100% risk score, using machine learning.
+2. **Segments** the user base into behavioral groups (for example, *Highly Active*, *Steady*,
+   *Casual*, and *At-Risk* users) so teams can see who they're serving.
+3. **Recommends** a specific, plain-English next step for any user (e.g. "improve sleep
+   consistency," "re-engage before drop-off") — and shows *why* the model flagged them.
+4. **Visualizes** all of it in an interactive dashboard a product or marketing team could
+   actually use day to day.
+
+Everything runs on a realistic **synthetic dataset** (no real personal data), so the project is
+fully reproducible by anyone who clones it. The result is a complete, honest demonstration of how
+a data team turns raw wearable signals into retention decisions.
 
 ## Why this is built the way it is
 
